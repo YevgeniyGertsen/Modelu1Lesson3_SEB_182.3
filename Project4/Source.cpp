@@ -13,6 +13,11 @@ start:
 	float a, c;
 	printf("Ввидите количество сантиметров ");
 	scanf_s("%f", &a);
+
+
+
+
+
 	c = a / 100;
 	printf("%f\n", c);
 	goto start;
